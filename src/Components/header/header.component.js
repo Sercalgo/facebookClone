@@ -46,24 +46,23 @@ const Header = () => {
         <div className="header__option">
           <SupervisedUserCircleRoundedIcon fontsize="large" />
         </div>
-
-        <div className="header__right">
-          <div className="header__info">
-            <Avatar />
-            <h4>Sergio</h4>
-            <IconButton>
-              <AddIcon />
-            </IconButton>
-            <IconButton>
-              <ForumIcon />
-            </IconButton>
-            <IconButton>
-              <NotificationsActiveIcon />
-            </IconButton>
-            <IconButton>
-              <ExpandMoreIcon />
-            </IconButton>
-          </div>
+      </div>
+      <div className="header__right">
+        <div className="header__info">
+          <Avatar />
+          <h4>Sergio</h4>
+          <IconButton>
+            <AddIcon />
+          </IconButton>
+          <IconButton>
+            <ForumIcon />
+          </IconButton>
+          <IconButton>
+            <NotificationsActiveIcon />
+          </IconButton>
+          <IconButton>
+            <ExpandMoreIcon />
+          </IconButton>
         </div>
       </div>
     </div>

@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/header.component";
+import Header from "./Components/header/header.component";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* sidebar */}
-      {/* feed */}
-      {/* widgets */}
+      <Header /> {/* sidebar */} {/* feed */} {/* widgets */}{" "}
     </div>
   );
 }
