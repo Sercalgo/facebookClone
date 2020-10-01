@@ -14,7 +14,7 @@ import ForumIcon from "@material-ui/icons/Forum";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import "./header.styles.css";
+import "./Header.styles.css";
 
 const Header = () => {
   return (
@@ -25,7 +25,6 @@ const Header = () => {
           alt="Facebook Logo"
         />
       </div>
-
       <div className="header__input">
         <SearchIcon />
         <input placeholder="Search Facebook" type="text" />
@@ -49,8 +48,8 @@ const Header = () => {
       </div>
       <div className="header__right">
         <div className="header__info">
-          <Avatar />
-          <h4>Sergio</h4>
+          <Avatar src="https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/13483253_1746586338896289_439733790313300243_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=kF4iYJhfwUsAX8edMK_&_nc_ht=scontent-waw1-1.xx&oh=fcc5f3e1520d82564e31d3b6f3e37f1c&oe=5F99C016" />
+          <h4> Sergio </h4>
           <IconButton>
             <AddIcon />
           </IconButton>
